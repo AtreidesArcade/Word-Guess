@@ -1,0 +1,50 @@
+header{
+  border: 3px solid red;
+  font-size: 20px;
+  text-align: center;
+  height: 150px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
+
+.underscore {
+  border: 3px solid red;
+  font-size: 20px;
+  text-align: center;
+  height: 100px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: white
+}
+
+.wrongGuess {
+  border: 3px solid red;
+  font-size: 15px;
+  text-align: center;
+  height: 100px;
+  width: 500px;
+  margin: 0 auto;
+  background-color: white
+}
+
+@media only screen and (max-width: 600px){
+  header{
+    width: 80%;
+  }
+  .underscore{
+    width: 80%;
+  }
+  .rightGuess{
+    width: 80%;
+  }
+  .wrongGuess{
+    width: 80%;
+  }
+
+}
+
+
+
